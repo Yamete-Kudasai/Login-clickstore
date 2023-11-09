@@ -224,6 +224,13 @@ header{
     .icon-menu{
         display: flex;
     }
+    .icon-menu img{
+        transition: .5s;
+    }
+    .icon-menu img.rotar{
+        transition: .5s;
+        transform: rotate(45deg);
+    }
     .menu ul{
         background-color: var(--white);
         position: absolute;
