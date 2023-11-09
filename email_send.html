@@ -11,25 +11,24 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <div class="nav-left">
-            <img src="/iconos/logo.svg" alt="Logo de teinda Click Store">
-        </div>
-        <div class="nav-center">
-            <a href="/index.html">Inicio</a>
-            <a href="">Tienda</a>
-            <a href="">Categoria</a>
-            <a href="">Promociones</a>
-            <div class="carrito">
-                <img src="/iconos/carrito-lleno.svg" alt="Carrito de compras">
+    <header>
+        <nav class="menu">
+            <div class="logo-menu">
+                <img src="/iconos/logo.svg" alt="Logo Click store" > 
             </div>
-        </div>
-        <div class="nav-rigth">
             
-            <button class="primary-button login-boton">Identificarse</button>
-        </div>
-
-    </nav>
+                <ul class="">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Categoria</a></li>
+                    <li><a href="">Promociones</a></li>
+                    <li><a href="">Tiendas</a></li>
+                    <li><button class="primary-button login-boton">Iniciar sesion</button></li>
+                </ul>
+                <div class="icon-menu">
+                    <img src="/iconos/menu.png" alt="">
+            </div>
+        </nav>
+    </header>
     <div class="login">
             <div class="form-login">
                 <img src="/iconos/logo.svg" alt="Logo tienda" class="logo">
@@ -41,10 +40,11 @@
                     <img src="/iconos/email.svg" alt="Email enviado">
                 </div>
                 <button class="primary-button login-boton">
-                    Iniciar sesion
+                    <a href="/login.html" class="login-boton">Iniciar Sesion</a>
                 </button>
                 <p class="parrafo">¿No recibiste tu correo?  <span class="links"><a href="/">Reenviar</a></span></p>
             </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
